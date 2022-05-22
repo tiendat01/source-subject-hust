@@ -1,0 +1,51 @@
+#include<stdio.h>
+int main()
+{
+	int n,i,j,k,a[10],b[10],outx[10],outy[10],s[10];
+	scanf("%d",&n);                         // Nhap n canh, so dinh la n+1
+	for(i=0;i<n;i++)
+	{
+		scanf("%d",&a[i]);
+		scanf("%d",&b[i]);
+		s[i]=0;
+	}                                       // Nhap n canh cua cay
+	s[n]=0;                            
+	for(i=0;i<n;i++)
+	    for(k=0;k<=n;k++)
+	    	if(a[i]==k||b[i]==k) s[k]+=1;   // Tim bac cua tung dinh k
+    int x=0;
+    i=1;                                    // Bat dau xet tu dinh 1
+	while(i<=n)
+		{
+		if(s[i]==1) 
+		   {
+			 outx[x]=i;
+			 s[i]=0;
+			 for(k=0;k<=n;k++)
+			   {
+			    if(a[k]==i) 
+				   { j=b[k];
+				     s[j]-=1;              // Tru 1 bac
+				     outy[x]=j;
+				     a[k]=0; b[k]=0;       // Xoa nguyen canh do, ko thi se lap o duoi
+					 x++;}
+			    if(b[k]==i)
+			       { j=a[k];
+				     s[j]-=1;
+			         outy[x]=j;
+			         a[k]=0; b[k]=0;
+			         x++;}                 // Tuong tu
+				}
+			 i=1;                          // Phai tra lai i=1 de xet lai tu dau
+		   	}
+		else i++;                          // Neu khong phai bac 1 thi xet tiep
+	   }
+	for(int i=0;i<n;i++)
+	   printf("%d ",outx[i]);
+    printf("\n");
+    for(int i=0;i<n;i++)
+       printf("%d ",outy[i]);
+    return 0;
+
+    
+}

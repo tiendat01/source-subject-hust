@@ -1,0 +1,25 @@
+chuong 2: de quy
+not complete:
+thuat toan quay lui: hoan vi, bai toan xep Hau
+
+chuong 3:
+not complete:
+mot so vi du voi
+- dllist: thuat toan Josephus, search: ktra xem co node nao chua truong thong tin inf = x ko
+- ngan xep: postfix(chuyen ve bieu thuc hau to)
+- hang doi: chuyen doi xau ky tu thanh so he thap phan
+
+chuong 4:
+- bt lien quan den cay bieu thuc, cay ma Huffman
+- cai dat cay dung mang, ds lien ket
+
+chuong 5:
+- ung dung cua heap sort: priority queue, huffman
+- counting sort, radix sort, bucket sort
+
+chuong 6:
+- cay bst bien the: cay avl, cay do den, cay splay
+
+
+
+

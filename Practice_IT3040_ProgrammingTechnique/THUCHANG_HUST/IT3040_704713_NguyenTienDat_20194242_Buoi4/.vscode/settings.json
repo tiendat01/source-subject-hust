@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "xstring": "cpp",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "istream": "cpp",
+        "iterator": "cpp",
+        "cmath": "cpp",
+        "string": "cpp",
+        "stack": "cpp",
+        "xiosbase": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "list": "cpp",
+        "map": "cpp",
+        "set": "cpp",
+        "algorithm": "cpp"
+    }
+}

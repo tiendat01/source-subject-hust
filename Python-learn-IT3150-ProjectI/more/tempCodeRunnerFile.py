@@ -1,0 +1,1 @@
+print(dat.__dict__)

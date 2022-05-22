@@ -1,0 +1,51 @@
+package bai3;
+
+public class NhanVien {
+	private String tenNhanVien;
+	private double luongCoBan, heSoLuong;
+	public static final double LUONG_MAX = 10000000;
+	
+	public boolean tangLuong(double incValue) {
+		if (luongCoBan * (heSoLuong + incValue) > LUONG_MAX) {
+			System.out.print("Khong the tang!!!");
+			return false;
+		}
+		return true;
+	}
+	
+	public double tinhLuong() {
+		return luongCoBan * heSoLuong;
+	}
+	
+	public void inTTin() {
+		System.out.println("Ten nhan vien: " + tenNhanVien);
+		System.out.println("Luong co ban: " + luongCoBan);
+		System.out.println("He so luong: " + heSoLuong);
+	}
+	
+	public String getTenNhanVien() {
+		return tenNhanVien;
+	}
+	public void setTenNhanVien(String ten) {
+		tenNhanVien = ten;
+	}
+	
+	public double getLuongCoBan() {
+		return luongCoBan;
+	}
+	public void setLuongCoBan(double luong_co_ban) {
+		luongCoBan = luong_co_ban;
+	}
+	
+	public double getHeSoLuong() {
+		return heSoLuong;
+	}
+	public void setHeSoLuong(double he_so_luong) {
+		heSoLuong = he_so_luong;
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+}

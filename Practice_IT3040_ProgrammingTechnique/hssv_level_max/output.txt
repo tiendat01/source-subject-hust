@@ -1,0 +1,17 @@
+Danh sach rong!
+en: 
+1. Ho ten: Nguyen Tien Dat
+Gioi tinh: nam
+Ngay thang nam sinh: 9/6/2001
+Ma so sinh vien: 20194242
+Diem mon KTLT: 9.000000
+2. Ho ten: Tran Minh Dung
+Gioi tinh: nam
+Ngay thang nam sinh: 5/5/2001
+Ma so sinh vien: 201942xx
+Diem mon KTLT: 5.000000
+3. Ho ten: Nguyen Van Tung
+Gioi tinh: nam
+Ngay thang nam sinh: 1/2/2001
+Ma so sinh vien: 201943xx
+Diem mon KTLT: 5.000000

@@ -1,0 +1,1 @@
+Python không hỗ trợ con trỏ giống C
